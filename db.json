@@ -1,0 +1,20 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "name": "ramadhan",
+      "email": "rgalgalo@gmail.com",
+      "phone": "0723280826",
+      "position": "Intern",
+      "message": "I am passionate about learning and contributing."
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john@example.com",
+      "phone": "0987654321",
+      "position": "Designer",
+      "message": "I have creative skills and experience in design."
+    }
+  ]
+}
