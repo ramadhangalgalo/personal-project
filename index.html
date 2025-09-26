@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youth Job Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Youth Job Application</h2>
+    <form id="jobForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required>
+      
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" required>
+      
+      <label for="position">Position Applying For</label>
+      <select id="position" required>
+        <option value="">--Select--</option>
+        <option>Intern</option>
+        <option>Junior Developer</option>
+        <option>Designer</option>
+        <option>Marketer</option>
+      </select>
+      
+      <label for="message">Why should we hire you?</label>
+      <textarea id="message" rows="4" required></textarea>
+      
+      <button type="submit">Submit Application</button>
+    </form>
+    <div class="success" id="successMessage">✅ Application submitted successfully!</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
